@@ -11,7 +11,8 @@
 
 ///
 /// The most common stuffs.
-///
+
+/// 基本类型的声明，包括muduo::string
 namespace muduo
 {
 

@@ -26,6 +26,7 @@ class ProcessInspector;
 class PerformanceInspector;
 class SystemInspector;
 
+// 基于 Web 服务器端窥探器，用于报告进程的状态
 // An internal inspector of the running process, usually a singleton.
 // Better to run in a seperated thread, as some method may block for seconds
 class Inspector : noncopyable

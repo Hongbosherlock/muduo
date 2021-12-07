@@ -3,6 +3,8 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+//带 stack trace 的异常基类
+
 #ifndef MUDUO_BASE_EXCEPTION_H
 #define MUDUO_BASE_EXCEPTION_H
 

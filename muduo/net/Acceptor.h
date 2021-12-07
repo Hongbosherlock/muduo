@@ -8,6 +8,7 @@
 //
 // This is an internal header file, you should not include this.
 
+//
 #ifndef MUDUO_NET_ACCEPTOR_H
 #define MUDUO_NET_ACCEPTOR_H
 
@@ -21,12 +22,15 @@ namespace muduo
 namespace net
 {
 
+// 前向声明，避免包含 EventLoop.h
 class EventLoop;
 class InetAddress;
 
 ///
 /// Acceptor of incoming TCP connections.
 ///
+
+//接收器 用于服务端接受连接
 class Acceptor : noncopyable
 {
  public:

@@ -28,7 +28,7 @@ class EventLoop;
 class Timer;
 class TimerId;
 
-///
+/// 定时器回调相关
 /// A best efforts timer queue.
 /// No guarantee that the callback will be on time.
 ///

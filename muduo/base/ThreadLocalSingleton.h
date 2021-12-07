@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 每个线程一个singleton
 #ifndef MUDUO_BASE_THREADLOCALSINGLETON_H
 #define MUDUO_BASE_THREADLOCALSINGLETON_H
 

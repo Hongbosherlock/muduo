@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 当前线程信息
 #ifndef MUDUO_BASE_CURRENTTHREAD_H
 #define MUDUO_BASE_CURRENTTHREAD_H
 

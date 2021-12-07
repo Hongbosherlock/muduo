@@ -27,6 +27,7 @@ namespace net
 class EventLoop;
 class EventLoopThread;
 
+// muduo 默认多线程 IO 模型 
 class EventLoopThreadPool : noncopyable
 {
  public:

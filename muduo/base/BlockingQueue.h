@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 无界阻塞队列（消费者生产者队列）
 #ifndef MUDUO_BASE_BLOCKINGQUEUE_H
 #define MUDUO_BASE_BLOCKINGQUEUE_H
 

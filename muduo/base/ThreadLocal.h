@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 线程局部数据
 #ifndef MUDUO_BASE_THREADLOCAL_H
 #define MUDUO_BASE_THREADLOCAL_H
 

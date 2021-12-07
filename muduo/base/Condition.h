@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 条件变量, 和 Mutex.h 一同使用
 #ifndef MUDUO_BASE_CONDITION_H
 #define MUDUO_BASE_CONDITION_H
 

@@ -39,6 +39,8 @@ namespace net
 /// |                   |                  |                  |
 /// 0      <=      readerIndex   <=   writerIndex    <=     size
 /// @endcode
+
+//缓冲区 非阻塞 IO 必备
 class Buffer : public muduo::copyable
 {
  public:

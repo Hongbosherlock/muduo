@@ -25,6 +25,7 @@ namespace net
 class Channel;
 class EventLoop;
 
+// 连接器 ：用于客户端发起连接
 class Connector : noncopyable,
                   public std::enable_shared_from_this<Connector>
 {

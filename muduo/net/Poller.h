@@ -24,7 +24,7 @@ namespace net
 
 class Channel;
 
-///
+/// IO Multiplexing 的基类接口
 /// Base class for IO Multiplexing
 ///
 /// This class doesn't own the Channel objects.

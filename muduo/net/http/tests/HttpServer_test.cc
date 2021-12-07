@@ -13,6 +13,8 @@ using namespace muduo::net;
 extern char favicon[555];
 bool benchmark = false;
 
+// 示范如何在程序中嵌入 HTTP 服务器
+
 void onRequest(const HttpRequest& req, HttpResponse* resp)
 {
   std::cout << "Headers " << req.methodString() << " " << req.path() << std::endl;

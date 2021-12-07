@@ -26,7 +26,7 @@ namespace net
 
 class InetAddress;
 
-///
+/// 封装 sockets 描述符，负责关闭连接
 /// Wrapper of socket file descriptor.
 ///
 /// It closes the sockfd when desctructs.

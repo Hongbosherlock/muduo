@@ -37,6 +37,7 @@
 //
 // Arghh!  I wish C++ literals were automatically of type "string".
 
+// 字符串参数传递类型
 #ifndef MUDUO_BASE_STRINGPIECE_H
 #define MUDUO_BASE_STRINGPIECE_H
 

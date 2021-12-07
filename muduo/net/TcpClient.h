@@ -19,9 +19,11 @@ namespace muduo
 namespace net
 {
 
+// 前向声明 Connector ，避免将内部类暴露给用户
 class Connector;
 typedef std::shared_ptr<Connector> ConnectorPtr;
 
+// TCP 客户端
 class TcpClient : noncopyable
 {
  public:

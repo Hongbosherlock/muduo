@@ -5,6 +5,8 @@
 using namespace muduo;
 using namespace muduo::net;
 
+// 示范暴露程序状态，包括内存使用和文件描述符
+
 int main()
 {
   EventLoop loop;

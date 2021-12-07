@@ -26,6 +26,8 @@ namespace sockets
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wconversion"
 #pragma GCC diagnostic ignored "-Wold-style-cast"
+
+// 网络字节序与本机字节序的转换
 inline uint64_t hostToNetwork64(uint64_t host64)
 {
   return htobe64(host64);

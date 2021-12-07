@@ -20,7 +20,7 @@ namespace muduo
 namespace net
 {
 
-///
+/// 定时器回调相关
 /// Internal class for timer event.
 ///
 class Timer : noncopyable

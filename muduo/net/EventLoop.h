@@ -36,6 +36,12 @@ class TimerQueue;
 /// Reactor, at most one per thread.
 ///
 /// This is an interface class, so don't expose too much details.
+
+// 事件分发器
+
+/*EventLoop 事件循环（反应器 Reactor），每个线程只能有一个 EventLoop 实体，它负责 IO 和定时器事件的分派。它用 eventfd(2) 来异步唤醒，这有别于传统的用一对pipe(2)的办法。
+它用 TimerQueue 作为计时器管理，用 Poller 作为 IO multiplexing
+*/
 class EventLoop : noncopyable
 {
  public:

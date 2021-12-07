@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+// 固定大小的线程池
 #ifndef MUDUO_BASE_THREADPOOL_H
 #define MUDUO_BASE_THREADPOOL_H
 

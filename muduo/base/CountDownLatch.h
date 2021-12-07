@@ -3,6 +3,8 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+//倒计时 同步
+
 #ifndef MUDUO_BASE_COUNTDOWNLATCH_H
 #define MUDUO_BASE_COUNTDOWNLATCH_H
 

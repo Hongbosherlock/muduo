@@ -3,6 +3,7 @@
 //
 // Author: Shuo Chen (chenshuo at chenshuo dot com)
 
+//
 #ifndef MUDUO_BASE_LOGFILE_H
 #define MUDUO_BASE_LOGFILE_H
 

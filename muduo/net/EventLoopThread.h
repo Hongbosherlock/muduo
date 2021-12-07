@@ -20,6 +20,7 @@ namespace muduo
 namespace net
 {
 
+// 新建一个专门用于 EventLoop 的线程
 class EventLoop;
 
 class EventLoopThread : noncopyable

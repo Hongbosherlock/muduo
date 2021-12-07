@@ -20,7 +20,7 @@ namespace net
 namespace sockets
 {
 
-///
+/// 封装底层的 sockets API 
 /// Creates a non-blocking socket file descriptor,
 /// abort if any error.
 int createNonblockingOrDie(sa_family_t family);

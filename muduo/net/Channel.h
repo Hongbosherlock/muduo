@@ -30,6 +30,8 @@ class EventLoop;
 /// This class doesn't own the file descriptor.
 /// The file descriptor could be a socket,
 /// an eventfd, a timerfd, or a signalfd
+
+// 用于每个 Socket 连接事件的分发
 class Channel : noncopyable
 {
  public:
